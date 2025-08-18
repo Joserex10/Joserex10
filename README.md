@@ -7,7 +7,7 @@
   <a href="mailto:vallejosjosemaria217@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="[AQUÍ_VA_EL_ENLACE_A_TU_LINKEDIN]">
+  <a href="www.linkedin.com/in/jose-maria-vallejos-cabada-1b65952bb">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 </p>
