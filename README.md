@@ -28,14 +28,3 @@
 
 ---
 
-### ✨ Proyectos Clave
-
-- 🤖 **Agente de IA para Automatización** -> Conectado a APIs de Google para gestionar tareas automáticamente. `[Link al repo]`
-- 🗃️ **Sistema Web Full-Stack con Django** -> Aplicación para la gestión de datos (CRUD). `[Link al repo]`
-- 🕸️ **Script de Web Scraping** -> Extractor de datos automatizado con Python. `[Link al repo]`
-
----
-
-<p align="center">
-  <em>Actualmente en 7mo ciclo de Ing. de Software (Tercio Superior).<br>Buscando activamente oportunidades de prácticas. ¡Hablemos!</em>
-</p>
