@@ -51,8 +51,6 @@
 ### 📊 Mis Estadísticas de GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Joserex10&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="Estadísticas de GitHub de Jose Maria" />
-  <br/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joserex10&layout=compact&theme=dracula" alt="Top Lenguajes de Jose Maria" />
 </p>
 
