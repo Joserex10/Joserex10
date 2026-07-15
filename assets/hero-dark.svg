@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="presentation" aria-hidden="true">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#30363D" stroke-width="1" opacity="0.44"/>
+    </pattern>
+    <style>
+      .sans{font-family:Inter,Segoe UI,Arial,sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+      .trace{stroke-dasharray:1100;stroke-dashoffset:0;animation:draw 2.8s cubic-bezier(.2,.8,.2,1) both}
+      .reveal{opacity:1;animation:reveal .75s ease-out both}.d1{animation-delay:.25s}.d2{animation-delay:.55s}.d3{animation-delay:.85s}
+      @keyframes draw{from{stroke-dashoffset:1100}to{stroke-dashoffset:0}}
+      @keyframes reveal{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+      @media (prefers-reduced-motion:reduce){.trace,.reveal{animation:none!important}}
+    </style>
+  </defs>
+  <rect width="1200" height="360" rx="18" fill="#0D1117"/>
+  <rect width="1200" height="360" rx="18" fill="url(#grid)"/>
+  <rect x="28" y="28" width="1144" height="304" rx="12" fill="none" stroke="#30363D"/>
+  <path class="trace" d="M68 84H1132" fill="none" stroke="#2F81F7" stroke-width="2"/>
+  <text x="68" y="68" class="mono reveal" font-size="12" letter-spacing="2" fill="#8C959F">PROFILE / 01</text>
+  <text x="1132" y="68" class="mono reveal" font-size="12" text-anchor="end" letter-spacing="2" fill="#8C959F">PERU / UTC−05:00</text>
+
+  <g class="reveal d1">
+    <rect x="68" y="116" width="300" height="146" rx="8" fill="#161B22" stroke="#30363D"/>
+    <text x="94" y="178" class="sans" font-size="58" font-weight="700" letter-spacing="-4" fill="#F0F6FC">JMV</text>
+    <path d="M94 198H340" stroke="#30363D"/>
+    <text x="94" y="224" class="mono" font-size="12" letter-spacing="1.6" fill="#8C959F">PRODUCT / SYSTEMS / CRAFT</text>
+  </g>
+
+  <g class="reveal d2">
+    <text x="430" y="142" class="mono" font-size="12" letter-spacing="2" fill="#58A6FF">ACTIVE DISCIPLINES</text>
+    <text x="430" y="184" class="sans" font-size="28" font-weight="600" fill="#F0F6FC">Product engineering</text>
+    <text x="430" y="220" class="sans" font-size="28" font-weight="600" fill="#F0F6FC">Local-first software</text>
+    <text x="430" y="256" class="sans" font-size="28" font-weight="600" fill="#F0F6FC">Automation</text>
+  </g>
+
+  <g class="reveal d3">
+    <circle cx="1008" cy="146" r="5" fill="#58A6FF"/>
+    <path d="M1008 151V256" stroke="#484F58"/>
+    <circle cx="1008" cy="220" r="5" fill="#0D1117" stroke="#58A6FF" stroke-width="2"/>
+    <path d="M1032 146H1110M1032 220H1110M1032 256H1110" stroke="#30363D"/>
+    <text x="1032" y="139" class="mono" font-size="11" fill="#8C959F">FRAME</text>
+    <text x="1032" y="213" class="mono" font-size="11" fill="#8C959F">BUILD</text>
+    <text x="1032" y="249" class="mono" font-size="11" fill="#8C959F">SHIP</text>
+  </g>
+
+  <text x="68" y="304" class="mono reveal d3" font-size="12" letter-spacing="1.8" fill="#8C959F">PRIVATE BY DEFAULT · USEFUL BY DESIGN</text>
+  <path d="M1008 289H1132" stroke="#58A6FF" stroke-width="2"/>
+</svg>

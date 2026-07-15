@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title description" data-template-version="2" data-fingerprint="cba977d1f30065b1f321b0915de23d12593d1478b26b30015ed3baffb5ff42e7">
+  <title id="title">Public shipping snapshot</title>
+  <desc id="description">Dated historical snapshot for Arca and DocuFlow. No public shipping activity in the last 30 complete UTC days.</desc>
+  <style>
+    .bg{fill:#F7F7F4}.panel{fill:#FFFFFF;stroke:#D0D7DE}.ink{fill:#161B22}.muted{fill:#57606A}.rule{stroke:#D0D7DE}.accent{fill:#0969DA}.sans{font-family:Inter,Segoe UI,Arial,sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+    @media (prefers-color-scheme:dark){.bg{fill:#0D1117}.panel{fill:#161B22;stroke:#30363D}.ink{fill:#F0F6FC}.muted{fill:#8C959F}.rule{stroke:#30363D}.accent{fill:#58A6FF}}
+  </style>
+  <rect class="bg" width="1200" height="300" rx="18"/>
+  <rect class="panel" x="28" y="28" width="1144" height="244" rx="12"/>
+  <text class="mono accent" x="60" y="66" font-size="13" letter-spacing="2">PUBLIC SHIPPING / HISTORICAL SNAPSHOT</text>
+  <text class="mono muted" x="1140" y="66" text-anchor="end" font-size="12">DATA THROUGH 2026-07-14 UTC</text>
+  <line class="rule" x1="60" y1="88" x2="1140" y2="88"/>
+  <text class="mono muted" x="60" y="122" font-size="12" letter-spacing="1.4">30-DAY WINDOW</text>
+  <text class="sans ink" x="60" y="154" font-size="21" font-weight="600">No public shipping activity</text>
+  <text class="sans muted" x="60" y="181" font-size="16">in the last 30 complete UTC days</text>
+  <text class="mono muted" x="60" y="218" font-size="12" letter-spacing="1.4">LATEST SELECTED PROJECT</text>
+  <text class="sans ink" x="60" y="248" font-size="18">arca-app · pushed 2026-02-28</text>
+  <line class="rule" x1="620" y1="112" x2="620" y2="254"/>
+  <text class="mono muted" x="660" y="122" font-size="12" letter-spacing="1.4">LATEST STABLE RELEASE</text>
+  <text class="sans ink" x="660" y="158" font-size="21" font-weight="600">DocuFlow v2.2.0 · 2026-01-14</text>
+  <text class="mono muted" x="660" y="218" font-size="12" letter-spacing="1.4">GENERATED</text>
+  <text class="sans ink" x="660" y="248" font-size="18">2026-07-15T01:59:10Z</text>
+</svg>
