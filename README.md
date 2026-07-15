@@ -1,98 +1,94 @@
-<h1 align="center">
-  Hola, soy Jose Maria Vallejos
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="50px" />
-</h1>
-
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=3182CE&center=true&width=435&lines=Apasionado+por+la+Automatizaci%C3%B3n+%F0%9F%A4%96;...y+el+Desarrollo+Web+%F0%9F%9A%80" alt="Animación de tipeo de subtítulo">
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Joserex10&label=Visitas+al+Perfil&color=0e75b6&style=flat" alt="Contador de visitas" />
-</p>
-
----
-
-### 👨‍💻 Sobre Mí
-
-<p>
-  ¡Hola! Soy un estudiante de Ingeniería de Software de Perú 🇵🇪. Me encanta construir soluciones que sean eficientes y escalables.
-</p>
-
-<ul>
-  <li>🤖 Apasionado por la <strong>automatización de procesos</strong> y el desarrollo backend.</li>
-  <li>🚀 Explorando y profundizando mis habilidades en el <strong>desarrollo web full-stack</strong>.</li>
-</ul>
-
----
-
-### 📬 Conéctate Conmigo
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/jose-maria-vallejos-cabada-1b65952bb" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" alt="Mi LinkedIn" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="mailto:vallejosjosemaria217@gmail.com" target="_blank">
-    <img src="https://skillicons.dev/icons?i=gmail" alt="Mi Gmail" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/Joserex10" target="_blank">
-    <img src="https://skillicons.dev/icons?i=github" alt="Mi GitHub" />
-  </a>
-</p>
-
----
-
-### 🛠️ Tecnologías y Herramientas
-
 <div align="center">
-  
-  <h4>Backend</h4>
-  <p>
-    <img src="https://skillicons.dev/icons?i=python,django,java,maven" alt="Skill Icons" />
-    </p>
 
-  <h4>Frontend</h4>
-  <p>
-    <img src="https://skillicons.dev/icons?i=react,js,html,css,tailwind" alt="Skill Icons" />
-    </p>
+# Jose Maria Vallejos
 
-  <h4>Herramientas y Otros</h4>
-  <p>
-    <img src="https://skillicons.dev/icons?i=git,github,linux,electron" alt="Skill Icons" />
-     </p>
-  
+**Product-focused Software Engineer**<br>
+Building private, local-first tools.
+
+`Based in Peru` · `Building for everywhere`
+
 </div>
 
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero-static.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img src="assets/hero-static.svg" width="100%" alt="">
+</picture>
+
+> **Current signal** — Building desktop tools that keep users in control.
+
+I turn complex workflows into focused software: products that run locally,
+respect ownership, and feel quiet enough to disappear into the work.
+
+## Selected work
+
+### Arca — Your ideas, locally owned
+
+<a href="https://github.com/Joserex10/arca-app">
+  <img src="assets/arca-preview.png" width="100%" alt="Editorial product map for Arca, showing local files, a writing surface, canvas tools, and search.">
+</a>
+
+A local-first desktop workspace for notes, visual thinking, and creative work.
+Arca keeps Markdown files on the user's machine while bringing together a
+WYSIWYG editor, an infinite canvas, a whiteboard, rich media, and search.
+
+`TypeScript` · `Electron` · `React` · `TipTap` · `tldraw`
+
+[Explore the source →](https://github.com/Joserex10/arca-app)
+
 ---
 
-### 📊 Mis Estadísticas de GitHub
+### DocuFlow — Documentation without friction
+
+<a href="https://github.com/Joserex10/DocuFlow">
+  <img src="assets/docuflow-preview.png" width="100%" alt="Editorial product map for DocuFlow, showing captured workflow steps, privacy redaction, review, and PDF export.">
+</a>
+
+A Windows automation tool that captures a workflow, turns interactions into
+editable steps, protects sensitive areas, and exports a polished PDF — all on
+the user's machine.
+
+`Python` · `Windows UI Automation` · `CustomTkinter` · `PDF export`
+
+[Explore the source →](https://github.com/Joserex10/DocuFlow) ·
+[Latest stable release →](https://github.com/Joserex10/DocuFlow/releases/latest)
+
+## Engineering principles
+
+`01` **Privacy is a product feature.**<br>
+`02` **Local-first means user ownership.**<br>
+`03` **Useful software should feel effortless.**
+
+## Public shipping snapshot
+
+<img src="assets/activity.svg" width="100%" alt="Dated historical snapshot of public activity for Arca and DocuFlow.">
+
+This is a generated historical snapshot, not a real-time activity feed.
+
+<details>
+<summary><strong>Technical range</strong></summary>
+
+<br>
+
+| Product engineering | Desktop & local-first | Automation & backend | Interface engineering |
+|---|---|---|---|
+| Product framing | Electron applications | Python workflows | React interfaces |
+| Release thinking | Local file ownership | Windows UI Automation | Editing experiences |
+| End-to-end delivery | Offline-first behavior | Document generation | Visual canvases |
+
+</details>
+
+## Let's build something useful
+
+Have an ambitious product in mind? I am always interested in thoughtful
+software, hard workflow problems, and tools that give people more control.
+
+[LinkedIn](https://www.linkedin.com/in/jose-maria-vallejos-cabada-1b65952bb) ·
+[GitHub](https://github.com/Joserex10)
 
 <div align="center">
-  <img 
-    src="https://github-readme-stats.vercel.app/api?username=Joserex10&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" 
-    alt="Estadísticas de GitHub de Jose Maria"
-    height="170"
-  />
-  <img 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joserex10&layout=compact&theme=dracula" 
-    alt="Top Lenguajes de Jose Maria"
-    height="170"
-  />
-  <br>
-  <img 
-    src="https://github-readme-streak-stats.herokuapp.com/?user=Joserex10&theme=dracula" 
-    alt="Racha de Contribuciones de Jose Maria"
-  />
+
+<sub>Hecho desde Perú.</sub>
+
 </div>
-
----
-
-### 🏆 Trofeos de GitHub
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Joserex10&theme=dracula&column=7" alt="Trofeos de GitHub" />
-</p>
