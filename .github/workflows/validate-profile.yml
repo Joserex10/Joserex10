@@ -1,0 +1,45 @@
+name: Validate profile
+
+on:
+  pull_request:
+    paths:
+      - "README.md"
+      - "assets/**"
+      - "scripts/**"
+      - "tests/**"
+      - ".github/workflows/**"
+  push:
+    branches:
+      - main
+    paths:
+      - "README.md"
+      - "assets/**"
+      - "scripts/**"
+      - "tests/**"
+      - ".github/workflows/**"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # actions/checkout v7.0.0
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0
+
+      # actions/setup-python v6.3.0
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
+        with:
+          python-version: "3.14.6"
+
+      - name: Run profile contract tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Exercise deterministic snapshot build
+        run: >-
+          python scripts/generate_activity.py
+          --fixture tests/fixtures/github_snapshot.json
+          --now 2026-07-14T12:00:00Z
+          --output /tmp/activity.svg

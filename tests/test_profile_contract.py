@@ -51,14 +51,23 @@ class ProfileContractTests(unittest.TestCase):
             self.assertEqual(path.read_bytes()[:8], b"\x89PNG\r\n\x1a\n")
 
     def test_workflow_actions_are_pinned_and_permissions_are_narrow(self) -> None:
-        workflow = (ROOT / ".github" / "workflows" / "update-profile.yml").read_text(encoding="utf-8")
-        uses = re.findall(r"uses:\s*([^\s]+)", workflow)
-        self.assertEqual(len(uses), 2)
-        for action in uses:
-            self.assertRegex(action, r"^actions/[a-z-]+@[0-9a-f]{40}$")
-        self.assertIn("permissions: {}", workflow)
-        self.assertEqual(workflow.count("contents: write"), 1)
-        self.assertIn('python-version: "3.14.6"', workflow)
+        workflow_dir = ROOT / ".github" / "workflows"
+        workflows = sorted(workflow_dir.glob("*.yml"))
+        self.assertEqual(len(workflows), 2)
+        for path in workflows:
+            workflow = path.read_text(encoding="utf-8")
+            uses = re.findall(r"uses:\s*([^\s]+)", workflow)
+            self.assertEqual(len(uses), 2, path.name)
+            for action in uses:
+                self.assertRegex(action, r"^actions/[a-z-]+@[0-9a-f]{40}$")
+            self.assertIn('python-version: "3.14.6"', workflow)
+
+        update = (workflow_dir / "update-profile.yml").read_text(encoding="utf-8")
+        validation = (workflow_dir / "validate-profile.yml").read_text(encoding="utf-8")
+        self.assertIn("permissions: {}", update)
+        self.assertEqual(update.count("contents: write"), 1)
+        self.assertIn("permissions:\n  contents: read", validation)
+        self.assertNotIn("contents: write", validation)
 
     def test_generator_uses_current_github_api_version(self) -> None:
         generator = (ROOT / "scripts" / "generate_activity.py").read_text(encoding="utf-8")
